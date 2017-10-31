@@ -12,6 +12,8 @@
 		B3A6B21D1FA2535E0052C8CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A6B21B1FA2535E0052C8CB /* Main.storyboard */; };
 		B3A6B21F1FA2535E0052C8CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A6B21E1FA2535E0052C8CB /* Assets.xcassets */; };
 		B3A6B2221FA2535E0052C8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A6B2201FA2535E0052C8CB /* LaunchScreen.storyboard */; };
+		B3E206381FA8F7850033EDB3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E206371FA8F7850033EDB3 /* TableViewController.swift */; };
+		B3E2063A1FA8FA1B0033EDB3 /* MeetupEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E206391FA8FA1B0033EDB3 /* MeetupEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B3A6B21E1FA2535E0052C8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3A6B2211FA2535E0052C8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3A6B2231FA2535E0052C8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3E206371FA8F7850033EDB3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B3E206391FA8FA1B0033EDB3 /* MeetupEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B3A6B21E1FA2535E0052C8CB /* Assets.xcassets */,
 				B3A6B2201FA2535E0052C8CB /* LaunchScreen.storyboard */,
 				B3A6B2231FA2535E0052C8CB /* Info.plist */,
+				B3E206371FA8F7850033EDB3 /* TableViewController.swift */,
+				B3E206391FA8FA1B0033EDB3 /* MeetupEvent.swift */,
 			);
 			path = "my-first-app";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3A6B21A1FA2535E0052C8CB /* ViewController.swift in Sources */,
+				B3E206381FA8F7850033EDB3 /* TableViewController.swift in Sources */,
+				B3E2063A1FA8FA1B0033EDB3 /* MeetupEvent.swift in Sources */,
 				B3A6B2181FA2535E0052C8CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
