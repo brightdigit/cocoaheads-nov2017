@@ -10,6 +10,10 @@ import UIKit
 
 class TableViewController: UITableViewController {
   
+  @IBAction func action(forButton button: UIButton) {
+    self.dismiss(animated: true, completion: nil)
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
